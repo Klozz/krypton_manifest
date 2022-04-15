@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github-ssh"
-        fetch="ssh://git@github.com/" />
+        fetch="https://github.com/" />
 
     <remote name="krypton-ssh"
-        fetch="ssh://git@github.com/AOSP-Krypton/"
+        fetch="https://github.com/AOSP-Krypton/"
         revision="A12" />
 
     <remote name="gitlab-ssh"
         fetch="ssh://git@gitlab.com/" />
 
     <remote name="krypton-gitlab"
-        fetch="ssh://git@gitlab.com/kosp/"
+        fetch="https://gitlab.com/kosp/"
         revision="A12" />
 
     <remote name="grapheneos"
-        fetch="ssh://git@github.com/GrapheneOS/"
+        fetch="https://github.com/GrapheneOS/"
         revision="12.1" />
 
     <!-- ART -->
